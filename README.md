@@ -1,8 +1,11 @@
 # CampusCoffee (WS 25/26)
 
 # Aufgabe 3.2 d
+```
 curl --header "Content-Type: application/json" --request POST --data '{"name":"Bäckerei Kohlmann GmbH","description":"Bäckerei mit Happy-Hour","type":"BAKERY","campus":"INF","street":"Im Neuenheimer Feld","houseNumber":"370","postalCode":69120,"city":"Heidelberg"}' http://localhost:8080/api/pos
+
 curl http://localhost:8080/api/pos/x
+````
 
 x durch entsprechende ID ersetzen
 
